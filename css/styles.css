@@ -1,0 +1,121 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.web {
+    font-weight: 700;
+    height: 31px;
+    font-size: 26px;
+    line-height: 1.17em;
+    color: #2196f3;
+}
+
+.cabecera {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17em;
+}
+
+.primerBoton {
+    width: 73px;
+    height: 38px;
+    background-color: #2196f3;
+    color: white;
+}
+
+.primerBoton:hover {
+    text-decoration: underline;
+}
+
+div {
+    text-align: center;
+    width: -mz-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+h2 {
+    font-weight: 500;
+    height: 36px;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+h2:hover {
+    cursor: pointer;
+    text-decoration: #2196f3 underline;
+}
+
+p:hover {
+    cursor: pointer;
+    text-decoration: #2196f3 underline;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875em;
+    color: #757575;
+}
+
+button:hover {
+    border-style: solid;
+    border-color: purple;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625em;
+}
+
+button {
+    width: 145px;
+    height: 38px;
+    background-color: #f5f4fa;
+    border: none;
+    border-radius: 5%;
+}
+
+footer {
+    width: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+    text-decoration: white;
+}
+
+.important {
+    color: white !important;
+}
+
+.fa {
+    padding: 15px;
+    width: 14px;
+    height: 14px;
+    text-decoration: none;
+    text-align: center;
+    margin: 4px 2px;
+}
+
+.fa:hover {
+    background: #2196f3;
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: gray;
+    color: white;
+}
+
+.fa-twitter {
+    background: gray;
+    color: white;
+}
+
+.fa-linkedin {
+    background: gray;
+    color: white;
+}
+
+.fa-instagram {
+    background: gray;
+    color: white;
+}

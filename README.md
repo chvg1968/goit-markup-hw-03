@@ -1,3 +1,2 @@
-# goit-markup-hw-03
-Tarea 3 
-Ejercicio de Flexbox
+# goit-markup-hw-02
+Tarea No. 2 
