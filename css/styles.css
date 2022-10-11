@@ -6,7 +6,7 @@
         
         body {
             font-family: "Roboto", sans-serif;
-            display: flexbox;
+            display: flex;
         }
         
         header {
@@ -29,7 +29,6 @@
             width: 800px;
             left: 0px;
             top: 80px;
-            border-radius: nullpx;
             display: flex;
             justify-content: space-evenly;
         }
@@ -53,7 +52,6 @@
             width: 145px;
             left: 215px;
             top: 24px;
-            border-radius: nullpx;
             font-family: Raleway;
             font-size: 26px;
             font-weight: 700;
@@ -67,7 +65,6 @@
             width: 49px;
             left: 453px;
             top: 32px;
-            border-radius: nullpx;
             font-family: Roboto;
             font-size: 14px;
             font-weight: 500;
@@ -159,7 +156,6 @@
             width: 371px;
             left: 619px;
             top: 991px;
-            border-radius: nullpx;
             font-family: Roboto;
             font-size: 36px;
             font-weight: 700;
@@ -172,7 +168,6 @@
             width: 263px;
             left: 669px;
             top: 1604px;
-            border-radius: nullpx;
             font-family: Roboto;
             font-size: 36px;
             font-weight: 700;
@@ -204,7 +199,8 @@
             box-shadow: 0px 4px 4px 0px #0000000F;
             box-shadow: 0px 1px 1px 0px #0000001F;
             margin-right: 20px;
-            border-style: solid 6px;
+            border-style: solid;
+            border-width: 6px;
             border-color: #EEEEEE;
         }
         
@@ -230,7 +226,6 @@
             width: 270px;
             left: 815px;
             top: 801px;
-            border-radius: nullpx;
             font-family: Roboto;
             font-size: 14px;
             font-weight: 400;
