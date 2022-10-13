@@ -38,7 +38,6 @@ header {
     letter-spacing: 0.03em;
     color: #2196f3;
     margin-top: 24px;
-    margin-bottom: 25px;
 }
 
 nav {
@@ -65,7 +64,6 @@ nav {
     width: 49px;
     left: 453px;
     top: 32px;
-    border-radius: nullpx;
     font-weight: 500;
     font-size: 18px;
     margin-right: 50px;
@@ -102,7 +100,6 @@ nav {
     width: 65px;
     left: 552px;
     top: 32px;
-    border-radius: nullpx;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -118,7 +115,6 @@ nav {
     width: 67px;
     left: 667px;
     top: 32px;
-    border-radius: nullpx;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -134,7 +130,6 @@ nav {
     width: 135px;
     left: 1078px;
     top: 32px;
-    border-radius: nullpx;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -182,6 +177,9 @@ nav {
 }
 
 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 38px;
     width: 128px;
     left: 576px;
@@ -208,7 +206,6 @@ button {
     top: 80px;
     border-radius: 0px;
     background: #2f303a;
-    text-align: center;
     color: white;
     display: flex;
     justify-content: center;
@@ -239,7 +236,6 @@ button {
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.06em;
-    text-align: center;
 }
 
 
@@ -255,7 +251,6 @@ button {
 }
 
 .images1 {
-    text-align: center;
     margin-bottom: 94px;
 }
 
@@ -302,7 +297,6 @@ button {
     font-weight: 700;
     line-height: 42px;
     letter-spacing: 0.03em;
-    text-align: center;
     padding-top: 94px;
 }
 
@@ -313,7 +307,6 @@ button {
     top: 1696px;
     border-radius: 2%;
     background: #ffffff;
-    text-align: center;
     margin-top: 94px;
 }
 
@@ -329,69 +322,156 @@ button {
 .botones {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     height: 200px;
     top: 186px;
     left: 495px;
 }
 
-.primerBoton {
+.primerboton {
+    height: 38px;
+    width: 73px;
+    left: 495px;
+    top: 186px;
+    border-radius: 4px;
     margin-right: 8px;
     margin-top: 186px;
-    margin-bottom: 50px;
+    background: #2196f3;
 }
 
 .sitiosweb {
+    height: 38px;
+    width: 128px;
+    left: 576px;
+    top: 186px;
+    border-radius: 4px;
     margin-right: 8px;
     margin-top: 186px;
-    margin-bottom: 50px;
+    background: #F5F4FA;
 }
 
 .aplicaciones {
+    height: 38px;
+    width: 145px;
+    left: 712px;
+    top: 186px;
+    border-radius: 4px;
     margin-right: 8px;
     margin-top: 186px;
-    margin-bottom: 50px;
+    background: #F5F4FA;
 }
 
 .diseño {
+    height: 38px;
+    width: 103px;
+    left: 865px;
+    top: 186px;
+    border-radius: 4px;
     margin-right: 8px;
     margin-top: 186px;
-    margin-bottom: 50px;
+    background: #F5F4FA;
 }
 
 .marketing {
+    height: 38px;
+    width: 130px;
+    left: 976px;
+    top: 186px;
+    border-radius: 4px;
     margin-top: 186px;
-    margin-bottom: 50px;
+    background: #F5F4FA;
 }
 
-.negocios {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-content: center;
+.textbuton1 {
+    height: 26px;
+    width: 38px;
+    left: 512px;
+    top: 192px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
-.negociosf {
+.textbuton2 {
+    height: 26px;
+    width: 128px;
+    left: 600px;
+    top: 192px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.textbuton3 {
+    height: 26px;
+    width: 98px;
+    left: 735px;
+    top: 192px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.textbuton4 {
+    height: 26px;
+    width: 52px;
+    left: 890px;
+    top: 192px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.textbuton5 {
+    height: 26px;
+    width: 52px;
+    left: 890px;
+    top: 192px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.filatarjetas1 {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
     align-content: center;
-    margin-bottom: 52px;
-    /* son 52px que se le suman a los 30px-bottom de las últimas tarjetas, para un total de 82px según el diseño*/
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.filatarjetas2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.filatarjetas3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 82px;
 }
 
 .tarjeta2 {
-    height: 404px;
+    box-sizing: border-box;
     width: 370px;
-    left: 215px;
-    top: 274px;
-    border-radius: 0px;
-    background: #ffffff;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #eeeeee;
+    height: 404px;
+    left: calc(50% - 370px/2 - 400px);
+    top: calc(50% - 404px/2 - 464px);
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 
 .tarjeta2:hover {
@@ -404,9 +484,6 @@ button:hover {
     border-style: solid;
     border-color: purple;
     cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.625em;
 }
 
 footer {
@@ -418,13 +495,22 @@ footer {
     background-color: #2f303a;
 }
 
-.important {
-    color: white !important;
-}
-
 address {
     display: flex;
     flex-direction: row;
+}
+
+.encuentrenos {
+    height: 16px;
+    width: 135px;
+    left: 516px;
+    top: 1703px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;
 }
 
 ul {
