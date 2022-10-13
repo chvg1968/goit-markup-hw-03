@@ -472,6 +472,7 @@ button {
     top: calc(50% - 404px/2 - 464px);
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    margin-right: 30px;
 }
 
 .tarjeta2:hover {
