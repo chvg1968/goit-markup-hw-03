@@ -377,6 +377,7 @@ button {
     flex-direction: row;
     align-content: center;
     margin-bottom: 52px;
+    /* son 52px que se le suman a los 30px-bottom de las últimas tarjetas, para un total de 82px según el diseño*/
 }
 
 .tarjeta2 {
