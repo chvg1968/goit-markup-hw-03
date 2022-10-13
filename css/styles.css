@@ -212,6 +212,7 @@ button {
     align-items: center;
     flex-direction: column;
     margin-bottom: 94px;
+    text-align: center;
 }
 
 .titppal {
@@ -248,10 +249,12 @@ button {
     flex-direction: row;
     margin-top: 95px;
     margin-bottom: 94px;
+    text-align: center;
 }
 
 .images1 {
     margin-bottom: 94px;
+    text-align: center;
 }
 
 .margen1 {
@@ -270,6 +273,7 @@ button {
     background: #f5f4fa;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 .personas {
